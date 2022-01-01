@@ -1,1 +1,27 @@
-// TODO
+.contentContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  h1 {
+    margin: 3rem 0 0.5rem 0;
+  }
+
+  > span {
+    color: var(--gray-300);
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+}
+
+.loadMorePosts {
+  color: var(--pink-500);
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  background: none;
+  border: none;
+}
